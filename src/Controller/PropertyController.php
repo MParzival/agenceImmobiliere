@@ -38,23 +38,6 @@ class PropertyController extends AbstractController
      */
     public function index() : Response
     {
-        //insertion requete sql
-        /*$property = new \App\Entity\Property();
-        $property->setTitle('Mon premier biens')
-            ->setPrice(200000)
-            ->setBedrooms(3)
-            ->setDescription("une petite description")
-            ->setAddress("14 rue orsel")
-            ->setSurface(85)
-            ->setRooms(5)
-            ->setFloor(2)
-            ->setHeat(1)
-            ->setCity('Oullins')
-            ->setPostalCode(69600);
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($property);
-        $em->flush();*/
-
         return $this->render('property/index.html.twig', [
             'current_name' => 'properties'
         ]);

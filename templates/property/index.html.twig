@@ -3,7 +3,38 @@
 {% block title %}Mes biens!{% endblock %}
 
 {% block body %}
+    <div class="jumbotron">
+        <div class="container">
+            {{ form_start(form) }}
+            <div class="form-row align-items-end">
+                <div class="col">
+                    {{ form_row(form.maxPrice) }}
+                </div>
+                <div class="col">
+                    {{ form_row(form.minSurface) }}
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <button class="btn btn-primary">Rechercher</button>
+                    </div>
+                </div>
+            </div>
+            {{ form_end(form) }}
+        </div>
+    </div>
     <div class="container">
         <h1>Voici mes biens </h1>
+
+        <div class="row">
+            {% for property in properties %}
+                <div class="col-md-4">
+                    {% include 'property/property.html.twig' %}
+                </div>
+            {% endfor%}
+        </div>
+        <div class="pagination">
+{#            on lui passe en parametre l'objet qui doit etre paginable #}
+            {{ knp_pagination_render(properties) }}
+        </div>
     </div>
 {% endblock %}

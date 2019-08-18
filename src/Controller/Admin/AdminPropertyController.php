@@ -2,6 +2,7 @@
 
 namespace App\Controller\Admin;
 
+use App\Entity\Option;
 use App\Entity\Property;
 use App\Form\PropertyType;
 use App\Repository\PropertyRepository;
@@ -75,6 +76,9 @@ class AdminPropertyController extends AbstractController
      */
     public function edit(Property $property, Request $request)
     {
+        // on ajoute une option au bien
+        /*$option = new Option();
+        $property->addOption($option);*/
         // on crée le formulaire avec le createForm
         $form = $this->createForm(PropertyType::class, $property);
         // on demande a symfony de gerer la demande de formaulaire avec le handleRequest

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d3ba7bc-05ae-4bf8-a12b-f837f6d96823" name="Default Changelist" comment="ajout navbar.html.twig &#10;ajout show.html.twig dans templates/property&#10;ajout de PropertyRepository" />
+    <list default="true" id="4d3ba7bc-05ae-4bf8-a12b-f837f6d96823" name="Default Changelist" comment="ajout navbar.html.twig &#10;ajout show.html.twig dans templates/property&#10;ajout de PropertyRepository">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +174,7 @@
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -239,6 +242,12 @@
       <workItem from="1565615650295" duration="27805000" />
       <workItem from="1565798604139" duration="41195000" />
       <workItem from="1566477639551" duration="2481000" />
+      <workItem from="1566505747687" duration="1014000" />
+      <workItem from="1566805709053" duration="342000" />
+      <workItem from="1566809189291" duration="218000" />
+      <workItem from="1566825816876" duration="206000" />
+      <workItem from="1566830100489" duration="10798000" />
+      <workItem from="1566978379107" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="ajout HomeController et propertyController">
       <created>1565614385748</created>
@@ -275,6 +284,20 @@
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
